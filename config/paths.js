@@ -85,6 +85,7 @@ module.exports = {
   testsSetup: resolveModule(resolveApp, 'src/setupTests'),
   proxySetup: resolveApp('server/proxySetup.js'),
   appNodeModules: resolveApp('node_modules'),
+  frameworkComponents: resolveApp('src/framework'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
   sassMixins: resolveApp('src/styles/mixins.scss')
