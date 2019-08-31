@@ -2,10 +2,11 @@
 import React from 'react'
 // components
 import s from './pageHomeDesktop.module.scss'
+import Layout from 'components/Layout/Layout'
 
 const PageHomeDesktop = () => (
   <div className={s.container}>
-    desktop
+    <Layout />
   </div>
 )
 

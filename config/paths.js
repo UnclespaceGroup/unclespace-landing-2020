@@ -88,6 +88,7 @@ module.exports = {
   frameworkComponents: resolveApp('src/framework'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+  frameworkComponents: resolveApp('src/framework'),
   sassMixins: resolveApp('src/styles/mixins.scss')
 }
 
