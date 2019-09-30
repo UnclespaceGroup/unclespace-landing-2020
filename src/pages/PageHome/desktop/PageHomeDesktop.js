@@ -6,7 +6,9 @@ import Layout from 'components/Layout/Layout'
 
 const PageHomeDesktop = () => (
   <div className={s.container}>
-    <Layout />
+    <Layout >
+      dsmlmlkdc
+    </Layout>
   </div>
 )
 

@@ -18,25 +18,25 @@ const ElasticAdaptive = ({
   useEffect(
     () => {
       if (!isServer) {
-        changeSize()
+        // changeSize()
       }
     },
     [currentWindowWidth]
   )
 
-  const changeSize = () => {
-    const html = document.documentElement
-    const { baseSize, baseWidth, widthLimit } = elasticConfig[currentSize]
-    let width = currentWindowWidth
-    if (widthLimit) {
-      width = Math.min(width, widthLimit)
-    }
-
-    const currentFontSize = width / baseWidth * baseSize
-    console.log(currentFontSize)
-
-    html.style.fontSize = currentFontSize + 'px'
-  }
+  // const changeSize = () => {
+  //   const html = document.documentElement
+  //   const { baseSize, baseWidth, widthLimit } = elasticConfig[currentSize]
+  //   let width = currentWindowWidth
+  //   if (widthLimit) {
+  //     width = Math.min(width, widthLimit)
+  //   }
+  //
+  //   const currentFontSize = width / baseWidth * baseSize
+  //   console.log(currentFontSize)
+  //
+  //   html.style.fontSize = currentFontSize + 'px'
+  // }
 
   return <ViewContext.Provider value={context}>{children}</ViewContext.Provider>
 }
