@@ -6,9 +6,10 @@ import Padding from 'components/Padding/Padding'
 import SectionStepsDesktop from 'components/SectionSteps/desktop/SectionStepsDesktop'
 import BannerDesktop from 'components/Banner/desktop/BannerDesktop'
 import SectionAdvantagesDesktop from 'components/SectionAdvantages/desktop/SectionAdvantagesDesktop'
+import SectionPricesDesktop from 'components/SectionPrices/desktop/SectionPricesDesktop'
 
 const ContainerMainPageDesktop = () => {
-  const { bannerMain, topText, stepsData, bannerData, advantagesData } = useMainPage()
+  const { bannerMain, topText, stepsData, bannerData, advantagesData, pricesData } = useMainPage()
 
   return (
     <>
@@ -21,6 +22,8 @@ const ContainerMainPageDesktop = () => {
       <BannerDesktop {...bannerData} />
       <Padding value={300} />
       <SectionAdvantagesDesktop {...advantagesData} />
+      <Padding value={300} />
+      <SectionPricesDesktop {...pricesData} />
       <Padding value={300} />
     </>
   )

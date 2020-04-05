@@ -59,5 +59,37 @@
         "text": "Вы всегда можете позвонить нам и узнать статус работы"
       }
     ]
+  },
+  "pricesData": {
+    "title": "Цены и тарифы",
+    "items": [
+      {
+        "title": "Лендинг",
+        "text": "Оригинальный сайт-одностраничник. Подойдет идеально для рекламы и продажи штучного товара",
+        "img": "images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png",
+        "price": "3 900₽",
+        "isContainImage": true
+      },
+      {
+        "title": "Интернет-магазин",
+        "text": "Сайт с каталогом товаров и возможностью онлайн оплаты и заказа",
+        "img": "images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png",
+        "price": "10 000₽",
+        "isContainImage": true
+      },
+      {
+        "title": "Корпоративный сайт",
+        "promoText": "Новинка",
+        "text": "Полноценный сайт для компании",
+        "img": "images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png",
+        "price": "21 900₽"
+      },
+      {
+        "title": "Корпоративный сайт",
+        "text": "Полноценный сайт для компании",
+        "img": "images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png",
+        "price": "21 900₽"
+      }
+    ]
   }
 }
