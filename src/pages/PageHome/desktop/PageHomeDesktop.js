@@ -1,15 +1,10 @@
 // packages
 import React from 'react'
 // components
-import s from './pageHomeDesktop.module.scss'
-import Layout from 'components/Layout/Layout'
+import ContainerMainPageDesktop from 'containers/ContainerMainPage/desktop/ContainerMainPageDesktop'
 
 const PageHomeDesktop = () => (
-  <div className={s.container}>
-    <Layout >
-      dsmlmlkdc
-    </Layout>
-  </div>
+  <ContainerMainPageDesktop />
 )
 
 export default React.memo(PageHomeDesktop)

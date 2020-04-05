@@ -1,0 +1,50 @@
+.wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone {
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  color: #3E3E3E;
+
+  span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #3E3E3E;
+  }
+}
+
+.logo {
+  height: 13.4rem;
+}
+
+.container {
+  padding-top: 45vh;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+}
+
+.text {
+  margin-top: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #FFFFFF;
+}

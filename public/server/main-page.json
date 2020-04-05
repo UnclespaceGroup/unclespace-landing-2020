@@ -1,0 +1,63 @@
+{
+  "bannerMain": {
+    "img": "images/main-banner.jpg",
+    "title": "Разработка сайтов <br />и Web-приложений",
+    "text": "Профессиональный сайт с возможностью редактирования <br />контента всего от 3900р",
+    "phone": "+ 7 (904) 237 02 67"
+  },
+  "topText": {
+    "title": "Кризисное время - повод задуматься об интернет-бизнесе",
+    "text": "Закажи разработку сайта прямо сейчас, не выходя из дома.",
+    "img": "images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png"
+  },
+  "stepsData": {
+    "title": "Этапы разработки",
+    "items": [
+      {
+        "title": "Анализ отрасли",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "title": "Анализ отрасли",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "title": "Анализ отрасли",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "title": "Анализ отрасли",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "title": "Анализ отрасли",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    ]
+  },
+  "bannerData": {
+    "img": "images/slide-1.jpg",
+    "title": "Работаем - пока все отдыхают",
+    "text": "Нам насрать на кардановирус, все ранвно <br />мы всегда сидим дома"
+  },
+  "advantagesData": {
+    "title": "Почему стоит выбрать нас",
+    "items": [
+      {
+        "img": "images/check 1.svg",
+        "title": "Гарантия качества",
+        "text": "Работаем по договору, в случае неустойки возвращаем деньги"
+      },
+      {
+        "img": "images/home_work 1.svg",
+        "title": "Работаем из дому",
+        "text": "Нам необязательно видеться с заказчиком, и мы вряд ли заразимся"
+      },
+      {
+        "img": "images/phone 1.svg",
+        "title": "Всегда на связи",
+        "text": "Вы всегда можете позвонить нам и узнать статус работы"
+      }
+    ]
+  }
+}
