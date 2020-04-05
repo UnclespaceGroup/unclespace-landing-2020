@@ -91,5 +91,42 @@
         "price": "21 900₽"
       }
     ]
+  },
+  "contactsData": {
+    "title": "Контактная информация",
+    "text": "Пишите в любое время, мы работаем 24/7",
+    "items": [
+      {
+        "icon": "phone",
+        "title": "<a>+7 (904) 237 02 67</a>"
+      },
+      {
+        "icon": "vk",
+        "title": "+7 (904) 237 02 67"
+      },
+      {
+        "icon": "location",
+        "title": "г. Сыктывкар"
+      }
+    ],
+    "mapCoords": [61.694667, 50.803668]
+  },
+  "footer": {
+    "img": "images/slide-1.jpg",
+    "items": [
+      {
+        "title": "Каталог услуг"
+      },
+      {
+        "title": "Кейсы"
+      },
+      {
+        "title": "О нас"
+      }
+    ]
+  },
+  "helmetData": {
+    "title": "UncleSpace group - Разработка сайтов и Web-приложений",
+    "description": "Разработка сайтов в городе Сыктывкар"
   }
 }

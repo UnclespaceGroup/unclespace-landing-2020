@@ -3,6 +3,12 @@
   overflow: hidden;
   background-color: white;
   border-radius: .4rem;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    box-shadow: 0 .8rem .8rem rgba(0, 0, 0, 0.25);
+  }
 }
 
 .promoText {
@@ -23,11 +29,11 @@
   height: 25rem;
   background: no-repeat center;
   background-size: cover;
+  transition: all 200ms ease-in-out;
 }
 
 .imgContain {
-  height: 25rem;
-  background: no-repeat center;
+  composes: img;
   background-size: contain;
 }
 

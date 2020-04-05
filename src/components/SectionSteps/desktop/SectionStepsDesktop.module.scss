@@ -1,15 +1,21 @@
 .item {
   display: flex;
-  margin-bottom: 12rem;
+  padding-bottom: 12rem;
 
-  &:hover .point {
-    &:before {
-      opacity: 1;
+  &:hover {
+    .number {
+      color: #F2994A;
     }
 
-    &:after {
-      transform-origin: center;
-      transform: scale(1.4);
+    .point {
+      &:before {
+        opacity: 1;
+      }
+
+      &:after {
+        transform-origin: center;
+        transform: scale(1.4);
+      }
     }
   }
 }
@@ -19,6 +25,7 @@
   font-weight: bold;
   font-size: 9.6rem;
   line-height: 9.6rem;
+  transition: all 200ms ease-in-out;
   color: rgba(0, 0, 0, 0.56);
 }
 
@@ -27,6 +34,7 @@
   font-size: 1.8rem;
   line-height: 2.1rem;
   color: #000000;
+  transition: all 200ms ease-in;
 
   h3 {
     margin-bottom: 2.4rem;
@@ -41,7 +49,7 @@
     position: absolute;
     content: '';
     z-index: 5;
-    left:  calc(50% - 1.2rem);
+    left: calc(50% - 1.2rem);
     top: calc(50% - 1.2rem);
     background: #F2994A;
     width: 2.4rem;

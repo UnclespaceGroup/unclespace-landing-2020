@@ -11,6 +11,7 @@ const useMainPage = () => {
   } = useAxiosLocalData({
     url: MAIN_PAGE_URL
   })
+
   return {
     bannerMain,
     topText,

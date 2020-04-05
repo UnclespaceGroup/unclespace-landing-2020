@@ -4,9 +4,21 @@
   justify-content: space-between;
 }
 
+@keyframes iconAnim {
+  30% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(10deg);
+  }
+}
 .item {
   text-align: center;
   width: 30%;
+
+  &:hover .img {
+    animation: iconAnim 200ms linear;
+  }
 }
 
 .img {
