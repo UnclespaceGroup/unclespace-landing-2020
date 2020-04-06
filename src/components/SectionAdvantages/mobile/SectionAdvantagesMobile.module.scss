@@ -1,0 +1,29 @@
+@keyframes iconAnim {
+  30% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(10deg);
+  }
+}
+.item {
+  text-align: center;
+  margin-bottom: 8rem;
+
+  &:hover .img {
+    animation: iconAnim 200ms linear;
+  }
+}
+
+.img {
+  height: 8rem;
+}
+
+.title {
+  @include h2-mobile;
+}
+
+.text {
+  margin-top: 1.2rem;
+  @include text-mini-mobile;
+}

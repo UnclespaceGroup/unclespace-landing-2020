@@ -1,0 +1,28 @@
+.item {
+  padding-bottom: 6rem;
+}
+
+.title {
+  @include h2-mobile;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 9.6rem;
+  line-height: 9.6rem;
+  transition: all 200ms ease-in-out;
+  color: rgba(0, 0, 0, 0.56);
+  margin-bottom: 1.2rem;
+}
+
+.content {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #000000;
+  transition: all 200ms ease-in;
+
+  h3 {
+    @include h3-mobile;
+    margin-bottom: 2.4rem;
+  }
+}

@@ -1,0 +1,31 @@
+.container {
+  background: #F2F2F2;
+  padding: 11rem 0 13rem;
+}
+
+.slider {
+  margin: 0 -2rem;
+}
+
+.title {
+  @include h2-mobile;
+}
+
+.col {
+  padding: 0 2rem 4rem;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #4F4F4F;
+  text-transform: uppercase;
+  transition: all 200ms ease-in;
+
+  &:hover {
+    background-color: #c8c8c8;
+  }
+}

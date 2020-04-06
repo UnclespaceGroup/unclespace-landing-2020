@@ -1,0 +1,29 @@
+.text {
+  margin-top: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #000000;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  @include text-mobile;
+  margin-bottom: 2.4rem;
+
+  svg {
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-right: 2.4rem;
+  }
+}
+
+.title {
+  @include h2-mobile;
+}
+
+.map {
+  margin: 4rem -2rem 0;
+  width: calc(100% + 4rem);
+  height: 20rem;
+}

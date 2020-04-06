@@ -1,0 +1,14 @@
+.container {
+  h2 {
+    @include h2-mobile;
+  }
+}
+
+.text {
+  @include text-mobile;
+  margin-top: 3.2rem;
+}
+
+.img {
+  width: 100%;
+}

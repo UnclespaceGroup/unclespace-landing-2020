@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  z-index: 1;
+  width: inherit;
+  height: inherit;
+
+  :global {
+    .swiper-pagination-bullet-active {
+      background: #c37306;
+    }
+  }
+}
+
+.slide {
+  width: 40rem;
+}

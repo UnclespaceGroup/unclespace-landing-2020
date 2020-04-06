@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  z-index: 1;
+  width: inherit;
+  height: inherit;
+
+  :global {
+    .swiper-pagination {
+      margin-bottom: 2rem;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #c37306!important;
+    }
+
+    .swiper-pagination-bullet {
+      background-color: darkgrey;
+      opacity: 1;
+    }
+  }
+}
+
+.slide {
+
+}

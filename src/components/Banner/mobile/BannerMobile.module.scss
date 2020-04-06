@@ -1,0 +1,17 @@
+.container {
+  padding: 10rem 0;
+  background: rgba(0, 0, 0, 0.74);
+}
+
+.title {
+  text-align: center;
+  @include h2-mobile;
+  color: #FFFFFF;
+}
+
+.text {
+  margin-top: 2.4rem;
+  text-align: center;
+  color: #FFFFFF;
+  @include text-mobile;
+}

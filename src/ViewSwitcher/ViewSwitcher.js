@@ -6,7 +6,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet/lib/Helmet'
 import MobileView from './LoadableMobileView'
 import DesktopView from './LoadableDesktopView'
-import TabletView from './LoadableTabletView'
 import { withViewContext } from 'HOC/ViewContext'
 
 const ViewSwitcher = ({ sizes: { isDesktop, isMobile } }) => (
@@ -18,7 +17,7 @@ const ViewSwitcher = ({ sizes: { isDesktop, isMobile } }) => (
         }`}
       />
     </Helmet>
-    {isMobile ? <MobileView /> : isDesktop ? <DesktopView /> : <TabletView />}
+    {isMobile ? <MobileView /> : <DesktopView />}
   </>
 )
 
