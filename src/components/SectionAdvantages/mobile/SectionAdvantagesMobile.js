@@ -6,7 +6,7 @@ import Padding from 'components/Padding/Padding'
 
 const SectionAdvantagesMobile = ({ items, title }) => (
   <Layout mobile>
-    <h2 className={css.title}>{title}</h2>
+    <h2 className={css.mainTitle}>{title}</h2>
     <Padding value={40} />
     <ul className={css.row}>
       {

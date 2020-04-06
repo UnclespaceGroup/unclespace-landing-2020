@@ -20,7 +20,7 @@
 
 .link {
   display: block;
-  font-size: 3.6rem;
+  @include text-mobile;
   color: #F2F2F2;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.4rem;
 }

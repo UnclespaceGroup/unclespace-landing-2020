@@ -22,7 +22,7 @@ const ContainerMainPageMobile = () => {
       <BannerBigMobile {...bannerMain} />
       <Padding value={80} />
       <SectionTextImgMobile {...topText} />
-      <Padding value={80} />
+      <Padding value={120} />
       <SectionStepsMobile {...stepsData} />
       <Padding value={40} />
       <BannerMobile {...bannerData} />

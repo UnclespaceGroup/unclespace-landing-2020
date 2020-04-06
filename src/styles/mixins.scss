@@ -1,16 +1,16 @@
 @mixin h2-mobile {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   line-height: 4rem;
 }
 
 @mixin text-mobile {
-  font-size: 2.4rem;
-  line-height: 2.8rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
 }
 
 @mixin text-mini-mobile {
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
 @mixin fz-16 {
@@ -19,6 +19,6 @@
 }
 
 @mixin h3-mobile {
-  font-size: 2.8rem;
-  line-height: 3.2rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
 }

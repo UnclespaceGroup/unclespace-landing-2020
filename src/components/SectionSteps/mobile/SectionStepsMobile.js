@@ -8,7 +8,7 @@ const SectionStepsMobile = ({ title, text, items }) => (
   <Layout mobile>
     <h2 className={css.title} dangerouslySetInnerHTML={{ __html: title }} />
     <div className={css.text} dangerouslySetInnerHTML={{ __html: text }} />
-    <Padding value={60} />
+    <Padding value={40} />
     <ul>
       {
         _.map(items, (item, key) => (

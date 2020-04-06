@@ -16,13 +16,12 @@
 }
 
 .content {
-  font-size: 1.8rem;
-  line-height: 2.1rem;
+  @include text-mini-mobile;
   color: #000000;
   transition: all 200ms ease-in;
 
   h3 {
     @include h3-mobile;
-    margin-bottom: 2.4rem;
+    margin-bottom: 2rem;
   }
 }
