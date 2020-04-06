@@ -1,0 +1,39 @@
+.container {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: solid 1px darkgrey;
+}
+
+.wrapper {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.link {
+  color: black;
+  font-size: 1.6rem;
+  margin: 0 1rem;
+}
+
+.phone {
+  margin-left: auto;
+  font-size: 2.4rem;
+  font-weight: bold;
+
+  span {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}

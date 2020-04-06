@@ -1,0 +1,51 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.wrapper {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px darkgrey;
+}
+
+.burger {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.link {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  color: black;
+}
+
+.collapse {
+  height: calc(100vh - 8rem);
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+
+  span {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
