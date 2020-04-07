@@ -4,6 +4,10 @@ import Button from 'components/Button/Button'
 import Padding from 'components/Padding/Padding'
 import { CONTENT_TYPES } from 'components/ContentConstructor/constructorConstants'
 import WysiwygMobile from 'components/Wysiwyg/mobile/WysiwygMobile'
+import SectionColumnsMobile from 'components/SectionColumns/mobile/SectionColumnsMobile'
+import TitleSection from 'components/TitleSection/TitleSection'
+import SectionStepsMobile from 'components/SectionSteps/mobile/SectionStepsMobile'
+import SectionAdvantagesMobile from 'components/SectionAdvantages/mobile/SectionAdvantagesMobile'
 
 const ContentConstructorMobile = ({ items }) => {
   return (
@@ -23,6 +27,14 @@ const Child = ({ type, ...data }) => {
       return <Padding {...data} />
     case CONTENT_TYPES.text:
       return <WysiwygMobile >{data.text}</WysiwygMobile>
+    case CONTENT_TYPES.columns:
+      return <SectionColumnsMobile {...data} />
+    case CONTENT_TYPES.title:
+      return <TitleSection single mobile {...data} />
+    case CONTENT_TYPES.steps:
+      return <SectionStepsMobile {...data} />
+    case CONTENT_TYPES.icons:
+      return <SectionAdvantagesMobile {...data} />
     default:
       return <div {...data} />
   }

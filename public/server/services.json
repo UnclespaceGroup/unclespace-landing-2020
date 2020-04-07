@@ -10,8 +10,71 @@
       "isContainImage": true,
       "dataItems": [
         {
-          "type": "text",
-          "text": "sdb hsdbchjdbshb d"
+          "type": "title",
+          "single": false,
+          "title": "Лендинг - сайт для продажи одного товара",
+          "text": "Если вы хотите разрекламировать и продать один или несколько конкретных видов товара, то Landing Page - для вас"
+        },
+        {
+          "type": "title",
+          "title": "Свобода стиля и анимации"
+        },
+        {
+          "type": "columns",
+          "left": "Лендинг не требует особых правил в оформлении сайта. Так же он просто с технической точки зрения, поэтому мы можем напичкать его различной анимацией",
+          "right": "<img src='/images/detail/girl-run.gif' style='height: 30rem' />"
+        },
+        {
+          "type": "title",
+          "widthStyle": "half",
+          "title": "<span>Срок разработки </span>от 2х месяцев",
+          "text": "Срок зависит о многих параметров и может затянуться, в зависимости от ваших хотелок. Поэтому мы назначаем минимальный срок, в который сайт будет готов в минимальном режиме, а далее дополняем его вашими хотелками"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Основной срок",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+              "title": "Основной срок",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+              "title": "Основной срок",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+              "title": "Основной срок",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "title": "<span>Цена от </span>30 000р",
+          "text": "Окончательная цена будет установлена только после после оформления ТЗ (которое оформим мы сами)"
+        },
+        {
+          "type": "icons",
+          "items": [
+            {
+              "img": "/images/check 1.svg",
+              "title": "Основной срок",
+              "text": "Сайт полностью готов и способен функционировать"
+            },
+            {
+              "img": "/images/check 1.svg",
+              "title": "Основной срок",
+              "text": "Сайт полностью готов и способен функционировать"
+            },
+            {
+              "img": "/images/check 1.svg",
+              "title": "Основной срок",
+              "text": "Сайт полностью готов и способен функционировать"
+            }
+          ]
         }
       ]
     },

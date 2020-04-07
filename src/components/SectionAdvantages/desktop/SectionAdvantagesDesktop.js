@@ -7,7 +7,7 @@ import Padding from 'components/Padding/Padding'
 const SectionAdvantagesDesktop = ({ items, title }) => (
   <Layout >
     <h2>{title}</h2>
-    <Padding value={160} />
+    <Padding value={60} />
     <ul className={css.row}>
       {
         _.map(items, (item, key) => (

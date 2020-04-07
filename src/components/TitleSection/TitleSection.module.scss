@@ -1,5 +1,10 @@
 .desktop {
   margin: 16rem auto 20rem;
+  padding-right: 30%;
+
+  span {
+    font-weight: 300;
+  }
 
   .text {
     margin-top: 2.4rem;
@@ -11,6 +16,10 @@
 .mobile {
   margin: 8rem 0 16rem;
 
+  span {
+    font-weight: 300;
+  }
+
   h2 {
     @include h2-mobile;
   }
@@ -19,4 +28,8 @@
     margin-top: 2.4rem;
     @include fz-16;
   }
+}
+
+.single {
+  margin-bottom: 0;
 }

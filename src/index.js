@@ -9,7 +9,7 @@ import * as serviceWorker from 'services/serviceWorker'
 import App from './App'
 import ElasticAdaptive from 'HOC/ElasticAdaptive'
 import './styles/styles.scss'
-
+import './static/roboto/stylesheet.css'
 const store = configureStore()
 
 const Page = (
