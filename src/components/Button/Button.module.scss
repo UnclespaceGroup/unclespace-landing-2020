@@ -1,0 +1,27 @@
+.btn {
+  background-color: #F2994A;
+  color: white;
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  border-radius: .4rem;
+  display: inline-flex;
+  align-items: center;
+  transition: all 200ms ease-in;
+
+  &:hover {
+    background-color: #f27214;
+    svg {
+      transform: translateX(2rem);
+    }
+  }
+
+  svg {
+    transition: all 200ms ease-in;
+    margin-left: 4rem;
+  }
+}
+
+.hide {
+  width: 100%;
+  justify-content: center;
+}

@@ -62,9 +62,9 @@ h4 {
 }
 
 p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: 0;
+  margin: 1rem 0;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 img {
@@ -136,4 +136,13 @@ input[type=number] {
 
 .elastic-mobile.overflow-hidden, html[data-overflow].elastic-mobile {
   overflow: hidden;
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.mx-20 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

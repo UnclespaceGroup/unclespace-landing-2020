@@ -128,5 +128,22 @@
   "helmetData": {
     "title": "UncleSpace group - Разработка сайтов и Web-приложений",
     "description": "Разработка сайтов в городе Сыктывкар"
+  },
+  "uniqDesign": {
+    "title": "Уникальный дизайн",
+    "text": "Мы не работаем с конструкторами сайтов. Все наши работы уникальны",
+    "items": [
+      {
+        "type": "text",
+        "text": "jvjdkfnkjdfnvjfdnvfnkjfn jdnvndnvdfk fdvdfkjn"
+      },
+      {
+        "type": "btn",
+        "to": "/",
+        "text": "Перейти",
+        "icon": "arrowRight"
+      }
+
+    ]
   }
 }

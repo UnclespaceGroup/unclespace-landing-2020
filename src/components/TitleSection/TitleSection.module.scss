@@ -1,0 +1,22 @@
+.desktop {
+  margin: 16rem auto 20rem;
+
+  .text {
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+
+.mobile {
+  margin: 8rem 0 16rem;
+
+  h2 {
+    @include h2-mobile;
+  }
+
+  .text {
+    margin-top: 2.4rem;
+    @include fz-16;
+  }
+}
