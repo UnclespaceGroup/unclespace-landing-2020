@@ -2,8 +2,8 @@ import React from 'react'
 import _ from 'lodash'
 import Button from 'components/Button/Button'
 import Padding from 'components/Padding/Padding'
-import Wysiwyg from 'components/Wysiwyg/desktop/Wysiwyg'
 import { CONTENT_TYPES } from 'components/ContentConstructor/constructorConstants'
+import WysiwygMobile from 'components/Wysiwyg/mobile/WysiwygMobile'
 
 const ContentConstructorMobile = ({ items }) => {
   return (
@@ -22,7 +22,7 @@ const Child = ({ type, ...data }) => {
     case CONTENT_TYPES.padding:
       return <Padding {...data} />
     case CONTENT_TYPES.text:
-      return <Wysiwyg >{data.text}</Wysiwyg>
+      return <WysiwygMobile >{data.text}</WysiwygMobile>
     default:
       return <div {...data} />
   }
