@@ -13,7 +13,13 @@ const useServiceDetail = () => {
   })
   const currentData = items.find(item => item?.id?.toString() === id?.toString())
 
+  const helmetData = {
+    title: `UncleSpace - заказать разработку сайта типа ${currentData?.title}`,
+    description: currentData?.text
+  }
+
   return {
+    helmetData,
     ...currentData
   }
 }

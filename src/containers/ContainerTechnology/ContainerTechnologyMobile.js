@@ -8,11 +8,13 @@ import Padding from 'components/Padding/Padding'
 import WysiwygMobile from 'components/Wysiwyg/mobile/WysiwygMobile'
 import SectionColumnsMobile from 'components/SectionColumns/mobile/SectionColumnsMobile'
 import SectionAdvantagesMobile from 'components/SectionAdvantages/mobile/SectionAdvantagesMobile'
+import ContainerHelmet from 'containers/ContainerHelmet/ContainerHelmet'
 
 const ContainerTechnologyMobile = () => {
-  const { bannerData, conception, adaptive, purpose, cms } = useTechnology()
+  const { bannerData, conception, adaptive, purpose, cms, helmetData } = useTechnology()
   return (
     <>
+      <ContainerHelmet {...helmetData} />
       <BannerBigMobile {...bannerData} />
       <TitleSection mobile title={conception?.title} withBottomHr text={conception?.text} >
         <ListLimit items={conception?.items} padding={60} mobile >

@@ -9,8 +9,15 @@ const useServices = () => {
   } = useAxiosLocalData({
     url: SERVICES_URL
   })
+
+  const helmetData = {
+    title: 'UncleSpace - Услуги по разработке сайтов',
+    description: 'Разработка профессиональных сайтов как под ключ, так и с дальнейшей поддержкой. Большой выбор сайтов - от лендингов и сайтов-визиток до крупных корпоративных решений и интернет-магазинов'
+  }
+
   return {
-    items
+    items,
+    helmetData
   }
 }
 export default useServices

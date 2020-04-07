@@ -8,11 +8,13 @@ import SectionAdvantagesDesktop from 'components/SectionAdvantages/desktop/Secti
 import Padding from 'components/Padding/Padding'
 import SectionColumnsDesktop from 'components/SectionColumns/desktop/SectionColumnsDesktop'
 import Wysiwyg from 'components/Wysiwyg/desktop/Wysiwyg'
+import ContainerHelmet from 'containers/ContainerHelmet/ContainerHelmet'
 
 const ContainerTechnologyDesktop = () => {
-  const { bannerData, conception, adaptive, purpose, cms } = useTechnology()
+  const { bannerData, conception, adaptive, purpose, cms, helmetData } = useTechnology()
   return (
     <>
+      <ContainerHelmet {...helmetData} />
       <BannerBigDesktop {...bannerData} />
       <TitleSection title={conception?.title} withBottomHr text={conception?.text} >
         <ListLimit items={conception?.items} padding={120} >

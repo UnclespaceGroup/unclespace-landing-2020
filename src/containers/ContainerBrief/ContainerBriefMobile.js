@@ -1,10 +1,12 @@
 import React from 'react'
 import ContainerHeader from 'containers/ContainerHeader/ContainerHeader'
 import Padding from 'components/Padding/Padding'
+import ContainerHelmet from 'containers/ContainerHelmet/ContainerHelmet'
 
 const ContainerBriefMobile = () => {
   return (
     <div>
+      <ContainerHelmet title={'UncleSpace - Бриф на разработку сайта'} />
       <ContainerHeader mobile />
       <Padding value={120} />
       <iframe

@@ -2,10 +2,12 @@ import React from 'react'
 import Layout from 'components/Layout/Layout'
 import ContainerHeader from 'containers/ContainerHeader/ContainerHeader'
 import Padding from 'components/Padding/Padding'
+import ContainerHelmet from 'containers/ContainerHelmet/ContainerHelmet'
 
 const ContainerBriefDesktop = () => {
   return (
     <>
+      <ContainerHelmet title={'UncleSpace - Бриф на разработку сайта'} />
       <ContainerHeader />
       <Padding value={200} />
       <Layout>

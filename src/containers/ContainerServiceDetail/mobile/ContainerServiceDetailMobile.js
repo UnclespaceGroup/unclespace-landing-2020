@@ -5,11 +5,13 @@ import ContentConstructorMobile from 'components/ContentConstructor/ContentConst
 import BannerBigMobile from 'components/BannerBig/mobile/BannerBigMobile'
 import ContainerOrderNow from 'containers/ContainerOrderNow/ContainerOrderNow'
 import Padding from 'components/Padding/Padding'
+import ContainerHelmet from 'containers/ContainerHelmet/ContainerHelmet'
 
 const ContainerServiceDetailMobile = () => {
-  const { title, text, banner, dataItems } = useServiceDetail()
+  const { title, text, banner, dataItems, helmetData } = useServiceDetail()
   return (
     <>
+      <ContainerHelmet {...helmetData} />
       <BannerBigMobile title={title} text={text} img={banner} />
       <Layout mobile>
         <ContentConstructorMobile items={dataItems} />
