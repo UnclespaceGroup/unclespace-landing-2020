@@ -4,7 +4,7 @@ import cn from 'classnames'
 import { Link } from 'react-router-dom'
 import Icon from 'components/Icon/Icon'
 
-const Button = ({ to, text, onClick, bgColor, hide, icon, className }) => {
+const Button = ({ to, text, onClick, bgColor, hide, icon, className, children }) => {
   const BtnComponent = to ? Link : 'button'
 
   return (
@@ -13,12 +13,12 @@ const Button = ({ to, text, onClick, bgColor, hide, icon, className }) => {
       onClick={onClick}
       className={cn(
         css.btn,
-        bgColor,
         { [css.hide]: hide },
+        css[bgColor],
         className
       )}
     >
-      {text}
+      {text || children}
       <Icon icon={icon} />
     </BtnComponent>
   )

@@ -8,19 +8,16 @@ import BannerDesktop from 'components/Banner/desktop/BannerDesktop'
 import SectionAdvantagesDesktop from 'components/SectionAdvantages/desktop/SectionAdvantagesDesktop'
 import SectionPricesDesktop from 'components/SectionPrices/desktop/SectionPricesDesktop'
 import SectionContactsDesktop from 'components/SectionContacts/desktop/SectionContactsDesktop'
-import FooterDesktop from 'components/Footer/desktop/FooterDesktop'
 import ContainerHelmet from 'containers/ContainerHelmet/ContainerHelmet'
-import ContainerHeader from 'containers/ContainerHeader/ContainerHeader'
 import TitleSection from 'components/TitleSection/TitleSection'
 import ContentConstructorDesktop from 'components/ContentConstructor/ContentConstructorDesktop'
 
 const ContainerMainPageDesktop = () => {
-  const { bannerMain, topText, stepsData, bannerData, advantagesData, pricesData, contactsData, footer, helmetData, uniqDesign } = useMainPage()
+  const { bannerMain, topText, stepsData, bannerData, advantagesData, pricesData, contactsData, helmetData, uniqDesign } = useMainPage()
 
   return (
     <>
       <ContainerHelmet {...helmetData} />
-      <ContainerHeader />
       <BannerBigDesktop {...bannerMain} />
       <Padding value={190} />
       <SectionTextImgDesktop {...topText} />
@@ -37,7 +34,6 @@ const ContainerMainPageDesktop = () => {
       <Padding value={150} />
       <SectionContactsDesktop {...contactsData} />
       <Padding value={150} />
-      <FooterDesktop {...footer} />
     </>
   )
 }

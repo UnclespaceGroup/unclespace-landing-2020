@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import css from './TitleSection.module.scss'
 import Layout from 'components/Layout/Layout'
+import Button from 'components/Button/Button'
 
-const TitleSection = ({ mobile, title, text, children, btnText }) => {
+const TitleSection = ({ mobile, title, text, children, btnText, btnMore }) => {
   const [ isOpen, setIsOpen ] = useState(false)
+
   return (
     <Layout mobile={mobile} className={mobile ? css.mobile : css.desktop}>
       <h2 dangerouslySetInnerHTML={{ __html: title }} />
@@ -17,6 +19,9 @@ const TitleSection = ({ mobile, title, text, children, btnText }) => {
       >
         {isOpen ? 'Скрыть' : btnText}
       </button>}
+      {
+        btnMore && <Button {...btnMore} />
+      }
     </Layout>
   )
 }

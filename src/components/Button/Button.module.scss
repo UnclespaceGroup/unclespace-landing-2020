@@ -10,6 +10,7 @@
 
   &:hover {
     background-color: #f27214;
+
     svg {
       transform: translateX(2rem);
     }
@@ -18,6 +19,21 @@
   svg {
     transition: all 200ms ease-in;
     margin-left: 4rem;
+  }
+}
+
+.btnMore {
+  font-weight: bold;
+  font-size: 2.4rem;
+  background-color: transparent;
+  line-height: 2.8rem;
+  color: #4F4F4F;
+  text-transform: uppercase;
+  transition: all 200ms ease-in;
+  width: auto;
+
+  &:hover {
+    background-color: #c8c8c8;
   }
 }
 

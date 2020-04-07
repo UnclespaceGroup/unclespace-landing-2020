@@ -9,17 +9,14 @@ import BannerMobile from 'components/Banner/mobile/BannerMobile'
 import SectionAdvantagesMobile from 'components/SectionAdvantages/mobile/SectionAdvantagesMobile'
 import SectionPricesMobile from 'components/SectionPrices/mobile/SectionPricesMobile'
 import SectionContactsMobile from 'components/SectionContacts/mobile/SectionContactsMobile'
-import FooterMobile from 'components/Footer/mobile/FooterMobile'
-import ContainerHeader from 'containers/ContainerHeader/ContainerHeader'
 import TitleSection from 'components/TitleSection/TitleSection'
 import ContentConstructorMobile from 'components/ContentConstructor/ContentConstructorMobile'
 
 const ContainerMainPageMobile = () => {
-  const { bannerMain, topText, stepsData, bannerData, advantagesData, pricesData, contactsData, footer, helmetData, uniqDesign } = useMainPage()
+  const { bannerMain, topText, stepsData, bannerData, advantagesData, pricesData, contactsData, helmetData, uniqDesign } = useMainPage()
 
   return (
     <>
-      <ContainerHeader mobile />
       <ContainerHelmet {...helmetData} />
       <BannerBigMobile {...bannerMain} />
       <Padding value={80} />
@@ -38,7 +35,6 @@ const ContainerMainPageMobile = () => {
       <Padding value={60} />
       <SectionContactsMobile {...contactsData} />
       <Padding value={150} />
-      <FooterMobile {...footer} />
     </>
   )
 }
