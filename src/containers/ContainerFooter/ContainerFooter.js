@@ -3,7 +3,7 @@ import FooterDesktop from 'components/Footer/desktop/FooterDesktop'
 import FooterMobile from 'components/Footer/mobile/FooterMobile'
 
 const footer = {
-  img: 'images/slide-1.jpg',
+  img: '/images/slide-1.jpg',
   items: [
     {
       title: 'Каталог услуг'

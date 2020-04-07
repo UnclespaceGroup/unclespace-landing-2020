@@ -8,9 +8,9 @@ import { CONTENT_TYPES } from 'components/ContentConstructor/constructorConstant
 const ContentConstructorDesktop = ({ items }) => {
   return (
     _.map(items, (item, key) => (
-      <p key={key}>
+      <div className={'my-20'} key={key}>
         <Child {...item} />
-      </p>
+      </div>
     ))
   )
 }

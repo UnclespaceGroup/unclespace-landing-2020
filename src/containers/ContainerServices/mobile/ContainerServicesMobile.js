@@ -10,7 +10,7 @@ const ContainerServicesMobile = () => {
       <BannerBigMobile
         title='Цены на услуги'
         text='Каждый сайт разрабатывается индивидуально, по вашим требованиям. Примерные расценки вы увидете ниже'
-        img={'images/main-banner.jpg'}
+        img={'/images/main-banner.jpg'}
       />
       <SectionPricesMobile inColumn items={items} />
     </>

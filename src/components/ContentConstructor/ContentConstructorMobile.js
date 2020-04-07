@@ -8,7 +8,7 @@ import WysiwygMobile from 'components/Wysiwyg/mobile/WysiwygMobile'
 const ContentConstructorMobile = ({ items }) => {
   return (
     _.map(items, (item, key) => (
-      <div className={'mx-20'} key={key}>
+      <div className={'my-20'} key={key}>
         <Child {...item} />
       </div>
     ))
