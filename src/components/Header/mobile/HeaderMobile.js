@@ -21,6 +21,7 @@ const HeaderMobile = ({ items }) => {
         <Link to={'/'} ><img className={css.logo} src={logo} /></Link>
         <MdMenu className={css.burger} onClick={() => setIsOpen(!isOpen)} />
       </Layout>
+      <hr />
 
       <Collapse isOpened={isOpen} >
         <Layout mobile className={css.collapse}>

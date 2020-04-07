@@ -4,11 +4,11 @@ import Layout from 'components/Layout/Layout'
 import _ from 'lodash'
 import Padding from 'components/Padding/Padding'
 
-const SectionAdvantagesMobile = ({ items, title }) => (
+const SectionAdvantagesMobile = ({ items, title, inLine }) => (
   <Layout mobile>
     <h2 className={css.mainTitle}>{title}</h2>
     <Padding value={40} />
-    <ul className={css.row}>
+    <ul className={inLine ? css.row : ''}>
       {
         _.map(items, (item, key) => (
           <li key={key} className={css.item}>

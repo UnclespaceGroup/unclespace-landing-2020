@@ -130,6 +130,15 @@ input[type=number] {
   }
 }
 
+a {
+  color: inherit;
+}
+
+hr {
+  border: none;
+  border-top: solid 1px darkgrey;
+}
+
 .elastic-desktop.overflow-hidden, html[data-overflow].elastic-desktop {
   overflow: hidden;
 }

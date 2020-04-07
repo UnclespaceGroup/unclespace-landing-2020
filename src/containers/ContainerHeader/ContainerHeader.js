@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderDesktop from 'components/Header/desktop/HeaderDesktop'
 import HeaderMobile from 'components/Header/mobile/HeaderMobile'
-import { PAGE_BRIEF, PAGE_HOME, PAGE_SERVICES } from 'constants/ROUTES'
+import { PAGE_BRIEF, PAGE_HOME, PAGE_SERVICES, PAGE_TECHNOLOGY } from 'constants/ROUTES'
 
 const ContainerHeader = ({ mobile }) => {
   const HeaderComponent = mobile ? HeaderMobile : HeaderDesktop
@@ -12,6 +12,9 @@ const ContainerHeader = ({ mobile }) => {
     },
     {
       to: PAGE_SERVICES, text: 'Услуги'
+    },
+    {
+      to: PAGE_TECHNOLOGY, text: 'Технологии'
     },
     {
       to: PAGE_BRIEF, text: 'Заполнить бриф'

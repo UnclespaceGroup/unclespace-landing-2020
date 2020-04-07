@@ -96,7 +96,7 @@
       },
       {
         "type": "btn",
-        "to": "/",
+        "to": "/technology/",
         "text": "Перейти",
         "icon": "arrowRight"
       }

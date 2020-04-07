@@ -1,0 +1,69 @@
+{
+  "bannerData": {
+    "title": "Правильный дизайн - половина успеха",
+    "text": "Мы знаем, чего хотят пользователи Сделаем сайт, на который захочется возвращаться",
+    "img": "/images/gory_derevia_oblaka_130535_1600x1200 1.jpg"
+  },
+  "conception": {
+    "title": "Выбери сам свою дизайн-концепцию",
+    "text": "Дизайн диктует свои правила, которые мы не вправе нарушать Существуют следующие концепции",
+    "items": [
+      {
+        "img": "/images/gory_derevia_oblaka_130535_1600x1200 1.jpg",
+        "title": "Google Material Design",
+        "text": "Концепция дизайна от Google. В основу ставиться реальный мир и компонентный подход.",
+        "bottom": "Почитать подробнее можно по ссылке <a href='https://material.io/' target='_blank'>https://material.io/</a>"
+      },
+      {
+        "img": "/images/gory_derevia_oblaka_130535_1600x1200 1.jpg",
+        "title": "Google Material Design",
+        "text": "Концепция дизайна от Google. В основу ставиться реальный мир и компонентный подход.",
+        "bottom": "Почитать подробнее можно по ссылке <a href='https://material.io/' target='_blank'>https://material.io/</a>"
+      },
+      {
+        "img": "/images/gory_derevia_oblaka_130535_1600x1200 1.jpg",
+        "title": "Google Material Design",
+        "text": "Концепция дизайна от Google. В основу ставиться реальный мир и компонентный подход.",
+        "bottom": "Почитать подробнее можно по ссылке <a href='https://material.io/' target='_blank'>https://material.io/</a>"
+      }
+    ]
+  },
+  "adaptive": {
+    "title": "Адаптив на любое устройство",
+    "text": "Делаем разные виды сайтов для отображения на компьютере, планшете и мобильном телефоне. Резиновая верстка гаранирует корректное отображение на всем",
+    "items": [
+      {
+        "img": "/images/check 1.svg"
+      },
+      {
+        "img": "/images/check 1.svg"
+      },
+      {
+        "img": "/images/check 1.svg"
+      }
+    ]
+  },
+  "purpose": {
+    "title": "У каждого сайта свои цели",
+    "text": "Видов сайтов много - вам нужен какой-то один",
+    "items": [
+      {
+        "left": "<h3>Хотите продавать кучу товаров - Интернет Магазин</h3><p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu</p>",
+        "right": "<img src='/images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png' /><p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu</p>"
+      },
+      {
+        "left": "<h3>Хотите продавать кучу товаров - Интернет Магазин</h3><p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu</p>",
+        "right": "<img src='/images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png' /><p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu</p>"
+      },
+      {
+        "left": "<h3>Хотите продавать кучу товаров - Интернет Магазин</h3><p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu</p>",
+        "right": "<img src='/images/kisspng-responsive-web-design-search-engine-optimization-w-programmer-5ac6bcf8e5f740.961431521522973944942.png' /><p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsu</p>"
+      }
+    ]
+  },
+  "cms": {
+    "title": "CMS в комплекте",
+    "text": "С легкостью управляйте контентом с помощью Headless CMS - Strapi",
+    "content": "sjfds jndjnjndsjn jcn djnjk snskjnsdkjn"
+  }
+}

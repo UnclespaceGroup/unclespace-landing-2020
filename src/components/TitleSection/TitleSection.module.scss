@@ -1,6 +1,9 @@
 .desktop {
   margin: 16rem auto 20rem;
-  padding-right: 30%;
+
+  .header {
+    padding-right: 30%;
+  }
 
   span {
     font-weight: 300;
@@ -11,10 +14,15 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
   }
+
+  .bottomHr {
+    margin-top: 4.8rem;
+    width: 100%;
+  }
 }
 
 .mobile {
-  margin: 8rem auto 16rem;
+  margin: 8rem auto;
 
   span {
     font-weight: 300;
@@ -28,8 +36,17 @@
     margin-top: 2.4rem;
     @include fz-16;
   }
+
+  .bottomHr {
+    margin-top: 2.4rem;
+    width: 100%;
+  }
 }
 
 .single {
   margin-bottom: 0;
+}
+
+.children {
+  margin-top: 6.4rem;
 }

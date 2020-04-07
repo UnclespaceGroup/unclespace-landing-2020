@@ -25,7 +25,7 @@ const SectionPricesMobile = ({ title, items = [], btnMore, inColumn }) => {
           }
         </CardContainer>}
         {btnMore &&
-          <Button hide bgColor={'btnMore'} {...btnMore} />}
+          <Button hide bgColor={'btnMoreMobile'} {...btnMore} />}
       </Layout>
     </div>
   )

@@ -4,6 +4,10 @@
   width: 100%;
   z-index: 100;
   background-color: white;
+
+  hr {
+    margin: 0;
+  }
 }
 
 .logo {
@@ -15,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid 1px darkgrey;
 }
 
 .burger {

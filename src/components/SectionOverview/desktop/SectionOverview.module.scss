@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 45%;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  @include fz-16;
+  margin-top: 2.4rem;
+}
+
+.bottom {
+  @include fz-16;
+  margin-top: 2.4rem;
+}

@@ -15,7 +15,7 @@ const FooterMobile = ({ items, img }) => (
         <div>
           {
             _.map(items, (item, key) => (
-              <Link className={css.link} to={item.to || '/'} key={key}>{item.title}</Link>
+              <Link className={css.link} to={item.to || '/'} key={key}>{item.text}</Link>
             ))
           }
         </div>
